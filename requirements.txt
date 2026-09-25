@@ -1,0 +1,10 @@
+SpeechRecognition>=3.14.0
+PyAudio>=0.2.14
+requests>=2.31.0
+deepgram-sdk
+openai
+assemblyai
+google-cloud-speech
+flask
+requests
+pydub

@@ -1,0 +1,11 @@
+# Copy this file to tokens.txt and fill in your real keys.
+# tokens.txt is gitignored and must never be committed.
+
+export HF_TOKEN="your_huggingface_token_here"
+export SARVAM_API_KEY="your_sarvam_api_key_here"
+export DEEPGRAM_API_KEY="your_deepgram_api_key_here"
+export ASSEMBLYAI_API_KEY="your_assemblyai_api_key_here"
+export OPENAI_API_KEY="your_openai_api_key_here"
+# Google Cloud: place your service-account JSON next to the project
+# and point GOOGLE_APPLICATION_CREDENTIALS at it (also gitignored).
+export GOOGLE_APPLICATION_CREDENTIALS="./your-service-account.json"
