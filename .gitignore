@@ -3,22 +3,36 @@ tokens.txt
 .env
 .env.*
 !.env.example
+.envrc
 keycaco*.json
 *-c96d243a2f0e.json
 *service-account*.json
 *credentials*.json
 !*credentials*.example.json
+.streamlit/secrets.toml
 
-# Python
+# Python / venv
 .venv/
 venv/
+env/
+ENV/
 __pycache__/
-*.py[cod]
+*.py[codz]
 *$py.class
 *.egg-info/
+.installed.cfg
+*.egg
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+dist/
+build/
+*.so
 
 # OS / editor
 .DS_Store
